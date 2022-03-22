@@ -1,0 +1,35 @@
+README for Wordrange assignment, CSE101
+
+Jessie Zhu, Nov 2021
+------------------------------------------------------------
+
+Code Files: Makefile, wrapper.cpp, bst.cpp
+Test Files: allwords-more-range.txt allwords-more-range-output.txt simple-input.txt 
+simple-output.txt allwords-basic.txt allwords-basic-output.txt
+Extra Files: README, range_queries_avl.pdf
+
+------------------------------------------------------------
+
+This is an assignment returns the number of nodes between two string in avl bst. 
+
+------------------------------------------------------------
+
+USAGE:
+1) Run "make", to get executable "wordrange".
+2) Run "./wordrange <INPUT FILE> <OUTPUT FILE>"
+
+Each line of the input file contains a command and then corresponding inputs. "i" will
+insert strings into tree, r will return the number of nodes between two strings in the 
+tree. 
+  - i <string to insert>
+  - r <string 1> <string2>
+
+
+
+Citations (example code is the stack recursion example):
+- bst.cpp follows the structure of the example code, with alterations
+to accomodate for integers for queen locations
+- avl tree simulator was used to help visualize tree structure and how/when rotations happened. 
+- AVL tree wiki page was used to learn about how avl self balances. 
+- wrapper.cpp's main function takes the structure of the example code, including code from last
+assignment's code to intake lines of a file. 

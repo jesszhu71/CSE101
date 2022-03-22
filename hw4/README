@@ -1,0 +1,30 @@
+README for Six Degrees assignment, CSE101
+
+Jessie Zhu, Nov 2021
+------------------------------------------------------------
+
+Code Files: Makefile, wrapper.cpp
+Test Files: cleanred_movielist.txt more-output.txt more-input.txt 
+simple-output.txt simple-input.txt
+Extra Files: README, bfs_six_degrees.pdf
+
+------------------------------------------------------------
+
+This is an assignment returns the shortest path of relations between two actors. 
+
+------------------------------------------------------------
+
+USAGE:
+1) Run "make", to get executable "sixdegrees".
+2) Run "./sixdegrees <INPUT FILE> <OUTPUT FILE>"
+
+Each line of the input file contains a two names of actors/actresses
+ - <actor 1> <actor 2>
+Each line of the movie list file contains a movie name and actors
+ - <movie> <actor> <actor> <actor> ... 
+
+
+
+Citations (example code is the stack recursion example):
+- bfs algorithm found youtube to understand how bfs works: https://www.youtube.com/watch?v=T_m27bhVQQQ&t=450s
+- wrapper function is from previous assignments

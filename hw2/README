@@ -1,0 +1,36 @@
+README for nqueens assignment, CSE101
+
+Jessie Zhu, Oct 2020
+------------------------------------------------------------
+
+Code Files: Makefile, wrapper.cpp, list.cpp, node.cpp
+Test Files: more-input.txt more-output.txt simple-input.txt 
+simple-output.txt test-5-input.txt test-5-output.txt
+Extra Files: README, hw_nqueens.pdf
+
+------------------------------------------------------------
+
+This is an assignment using stacks to place n queens on an
+nxn board where none of the queens attack each other. 
+
+------------------------------------------------------------
+
+USAGE:
+1) Run "make", to get executable "nqueens".
+2) Run "./nqueens <INPUT FILE> <OUTPUT FILE>"
+
+Each line of the input file contains an integer representing the board 
+size (aka number of queens to place) and then two integers (row and col) 
+between 1 and n for each inputed queen on the board. 
+
+
+
+Citations (example code is the stack recursion example):
+- node.cpp follows the structure of the example code, with alterations
+to accomodate for integers for queen locations
+- list.cpp takes the basic functions of a linkedlist from the example
+code and I added more complex functions to manipulate my lists and 
+complete my program
+- wrapper.cpp's main function takes the structure of the example code, with include code from last
+assignment's code to intake lines of a file. Helper function takes the structure of how the stack 
+was set up from the example code (else is original);

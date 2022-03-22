@@ -1,0 +1,22 @@
+README for Bard assignment, CSE101
+
+Jessie Zhu, Oct 2020
+--------------------------------------------
+
+Code Files: Makefile, wrapper.cpp, linkedlist.cpp, linkedlist.h
+Test Files: short-shake.txt, simple-input.txt, simple-output.txt, shakespeare-clearned
+Extra Files: README, hw_shakespeare.pdf
+
+--------------------------------------------
+
+This is an assignment using linkedlists to conduct a dramatic analysis on shakespear's
+word choice based on frequency and word lengths
+
+--------------------------------------------
+
+USAGE:
+1) Run "make", to get executable "bard".
+2) Run "./bard <INPUT FILE> <OUTPUT FILE>"
+
+Each line of input file contain two non-negative integers separated by a space("l k").
+l, k indicate the word that is l letter long that is k most frequent. 
