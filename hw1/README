@@ -1,6 +1,6 @@
 README for Bard assignment, CSE101
 
-Jessie Zhu, Oct 2020
+Jessie Zhu, Oct 2021
 --------------------------------------------
 
 Code Files: Makefile, wrapper.cpp, linkedlist.cpp, linkedlist.h
@@ -11,6 +11,8 @@ Extra Files: README, hw_shakespeare.pdf
 
 This is an assignment using linkedlists to conduct a dramatic analysis on shakespear's
 word choice based on frequency and word lengths
+
+Link to assignment instructions [pdf](https://github.com/jesszhu71/CSE101/blob/main/hw1/hw_shakespeare.pdf).
 
 --------------------------------------------
 
